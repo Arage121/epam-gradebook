@@ -14,7 +14,6 @@ function profit(){
         let amount = a*Math.pow(1+per/100, b)
         let ans1 = amount.toFixed(2)
         let ans2 = (Number(ans1)-a).toFixed(2)
-        //alert the whole output as writen in task
         alert(`             
             Initial amount: ${a}
             Number of years: ${b}
