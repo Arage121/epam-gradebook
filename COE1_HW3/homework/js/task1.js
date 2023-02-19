@@ -10,12 +10,17 @@ function profit(){
     if(isNaN(a) || isNaN(b) || isNaN(per) || a < 1000 || b < 1 || per > 100) {
         alert('Invalid input data');
     } else{
-        //formula to print the ans
+        //formula to print the required things
         let amount = a*Math.pow(1+per/100, b)
         let ans1 = amount.toFixed(2)
         let ans2 = (Number(ans1)-a).toFixed(2)
-        document.getElementById('val').innerHTML = 'Initial amount: '+ a + '<br>'+
-        'Number of years: '+b+'<br>'+'Percentage of year: '+per;
-        document.getElementById('ans').innerHTML = 'Total profit: '+ ans2 +'<br>'+'Total amount: '+ ans1;
+        alert(`             
+            Initial amount: ${a}
+            Number of years: ${b}
+            Percentage of year: ${per}
+            
+            Total profit: ${ans2} 
+            Total amount: ${ans1}`
+            )
     }
 }
