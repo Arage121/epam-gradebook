@@ -1,4 +1,5 @@
 //task1
+console.log('task1')
 function reverseNumber(num) {
 let isMin = num < 0
 if(isMin){
@@ -12,41 +13,38 @@ num = Math.floor(num/10)
 rev = isMin ? -rev : rev
 return rev
 }
-console.log('task1')
 console.log(reverseNumber(12345))
 console.log(reverseNumber(-56789))
 
 //task2
-
-function forEach(arr, func) {
- for(let el of arr){
-    func(el)
- }
-}
 console.log('task2')
-let arr = [2, 5, 8]
-for(let i=0; i<arr.length;i++){
-    console.log(arr[i])
- }
+let arr= [2,5,8]
+function forEach(arr, func){
+    for(let i=0;i<arr.length;i++){
+        func(arr[i])
+    }
+}
 
+function func1(el){
+    console.log(el)
+}
+forEach(arr, func1)
 
 //task3
 console.log('task3')
-function map(arr, func) {
-let mArr = []
-for(let i=0;i<arr.length;i++){
-    let mArrValue = func(arr[i])
-    mArr.push(mArrValue)
+function map(arr, func){
+    let ma = []
+    forEach(arr, el => {
+        ma.push(func(el))
+    })
+    return ma
 }
-return mArr;
-}
-
-let mapVal = map([2,5,8], (el) => {
-   return el + 3
+let mapVal = map([2, 5, 8], el => {
+  return el + 3
 })
 console.log(mapVal)
 let mapVal1 = map([1,2,3,4,5], (el) => {
-    return el*2
+    return el * 2
 })
 console.log(mapVal1)
 
@@ -65,18 +63,19 @@ function filter(arr, func) {
 let filVal = filter([2,5,1,3,8,6], (el) => {
     return el > 3
 })
+console.log(filVal)
 let filVal1 = filter([1,4,6,7,8,10], (el) => {
     return el % 2 === 0
 })
-console.log(filVal)
 console.log(filVal1)
 
 //task5
+console.log('task5')
 function getAdultAppleLovers(data) {
-    let r_Age = 18;
-    let ftd = filter(data, el => el.age > r_Age && el.favoriteFruit === 'apple');
-    let ans = map(ftd, el => el.name);
-    return ans;
+    let r_Age = 18
+    let ftd = filter(data, el => el.age > r_Age && el.favoriteFruit === 'apple')
+    let ans = map(ftd, el => el.name)
+    return ans
     }
     const data = [
   {
@@ -111,13 +110,12 @@ function getAdultAppleLovers(data) {
     "name": "Weiss",
     "favoriteFruit": "banana"
   }
-];
-console.log('task5')
-let aL = getAdultAppleLovers(data);
-console.log(aL);
-
+]
+let aL = getAdultAppleLovers(data)
+console.log(aL)
 
 //task6
+console.log('task6')
 const Obj = {
     keyOne: 1,
     keyTwo: 2,
@@ -131,11 +129,11 @@ function getKeys(obj) {
    }
    return keys
 }
-console.log('task6')
 const ans = getKeys(Obj)
 console.log(ans)
 
 //task7
+console.log('task7')
 function getValues(obj) {
     const val = []
     for(let i in obj){
@@ -143,8 +141,6 @@ function getValues(obj) {
     }
     return val
 }
-console.log('task7')
 const values = getValues(Obj)
 console.log(values)
-
 
