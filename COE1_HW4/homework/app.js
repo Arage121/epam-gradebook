@@ -1,4 +1,4 @@
-//task1
+//task1 //129 lines of code
 console.log('task1')
 function reverseNumber(num) {
 let isMin = num < 0
