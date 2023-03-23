@@ -1,4 +1,51 @@
 /* write your styles here */
-#lng-lb{
-    margin-left: 12em;
-}
+#app-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #app-root h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  .searchBox,
+  .queryBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+  }
+  table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 70%;
+  }
+  th {
+    border-radius: 8px;
+    background-color: #10ac2a;
+    color: white;
+    margin: 0;
+    border-left: 1px solid white;
+    line-height: 8vh;
+  }
+  td {
+    margin: 0;
+    height: 8vh;
+    border-top: 1px solid black;
+  }
+  tr:nth-child(even) {
+    background-color: #f5f6fa;
+  }
+  tr:hover {
+    background-color: #dfe6e9;
+  }
+  .sort-country {
+    cursor: pointer;
+  }
+  td img {
+    width: 30%;
+  }
+  
