@@ -1,0 +1,69 @@
+/* START: Task 1 Styles */
+body {
+  display: grid;
+  place-items: center;
+  font-family: Consolas;
+}
+
+table {
+  border: 1px solid black;
+  width: 300px;
+  text-align: center;
+}
+td {
+  border: 1px solid black;
+  line-height: 10vh;
+}
+
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+
+#task2 {
+  width: 400px;
+  height: 150px;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#warning-box {
+  padding: 7%;
+  border-radius: 5px;
+}
+#warning-box p {
+  display: inline;
+  font-size: 1.2rem;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+  color: white;
+}
+
+.submit-field {
+  width: 100%;
+}
+
+#task2 input {
+  border: 2px solid black;
+  width: 75%;
+  height: 30px;
+  outline: none;
+  border-radius: 2px;
+}
+#task2 button {
+  width: 18%;
+  height: 32px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+
+/* END: Task 3 Styles */
