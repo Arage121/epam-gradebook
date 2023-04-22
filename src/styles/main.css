@@ -74,11 +74,13 @@ td{
   text-align: center;
   padding: 4.5px;
   border: 1px solid #dddcdc;
+  width: 12%;
 }
 
 th:first-child,
 td:first-child {
   padding-left: 16px;
+  width: 5%;
 }
 
 th:last-child,
