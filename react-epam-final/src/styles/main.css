@@ -1,0 +1,116 @@
+button{
+    padding: 8px;
+    width: 5vw;
+    border:none;
+    border-radius: 15px;
+    background: rgb(127, 210, 138);
+    color: white;
+    margin-left: 2em;
+    cursor: pointer;
+}
+
+.inp{
+  margin-left: 40em;
+  padding: 7px;
+  width: 15vw;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.25);
+  text-align: center;
+
+}
+
+::placeholder{
+   padding: 30px;
+  }
+
+::-webkit-input-placeholder { /* Edge */
+    color: gainsboro;  
+}
+
+button:hover{
+    background: rgb(240, 126, 113);
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25);
+}
+
+.highlighted{
+background-color: blue;
+}
+
+button.active {
+  background-color:  rgb(250, 103, 87);;
+}
+
+#btn{
+  width: 6vw;
+  padding: 9px;
+  border-radius: 18px;
+}
+
+#icon{
+  margin-left: 22.5em;
+  margin-top: 5px;
+  position: relative;
+  position: absolute;
+  font-size: x-large;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 97%;
+  margin-left: 1.3em;
+  margin-right: 1em;
+}
+
+th{
+  text-align: center;
+  padding: 10px;
+  background-color: #dddcdc;
+  color: #333;
+}
+
+td{
+  text-align: center;
+  padding: 4.5px;
+  border: 1px solid #dddcdc;
+  width: 12%;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 16px;
+  width: 5%;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 16px;
+}
+
+.tbtn{
+  background-color: rgba(85, 133, 255, 0.851);
+  margin-right: 1.5em;
+}
+
+.tbtn:hover{
+  background-color: transparent;
+  color: rgba(10, 75, 239, 0.851);
+  box-shadow: 1px 1px 8px 1px rgba(4, 71, 241, 0.851);
+}
+
+.rowcol{
+background: #F0FFF0;
+}
+
+.whiterow{
+background: white;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.none{
+  text-transform: none;
+}
