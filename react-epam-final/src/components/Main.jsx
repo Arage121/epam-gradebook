@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import '../styles/main.css';
 import { FcSearch } from 'react-icons/fc';
 import data from '../data/data.json';
-import Details from './Details'
+import Details from './Details';
 import Statistics from './Statistics';
+
 
 const Main = () => {
   const [tableRows, setTableRows] = useState(data);
@@ -12,7 +13,6 @@ const Main = () => {
   const [selectedRow, setSelectedRow] = useState(null);
   const [showDetails, setShowDetails] = useState(false);
   const [DetailId, setDetailId] = useState(0);
-
 
   const handleAll = () => {
     setTableRows(data);
@@ -102,7 +102,7 @@ const Main = () => {
         
         <button id="btn">Download</button>
       </div>
-      <table>
+      <table name='grades'>
         <thead>
           <tr>
             <th>No</th>

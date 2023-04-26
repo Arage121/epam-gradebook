@@ -1,0 +1,135 @@
+
+.contact-section {
+    font-size: larger;
+    height: 81.3vh;
+    background: linear-gradient(to bottom, #0334bd, #87dff5);
+    padding: 4rem;
+    color: #fff;
+  }
+ 
+  .top{
+    display: flex;
+  }
+  
+  .firsth2{
+    margin-left: 23em;
+    margin-top: 1em;
+  }
+
+  .sech2{
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+  .contact-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+  }
+  
+  .contact-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 4px solid #898787;
+  }
+  
+  
+  .contact-section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 40%;
+    margin: 0 auto;
+  }
+  
+  .contact-section form input,
+  .contact-section form textarea {
+    padding: 1rem;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 0.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section form input:focus,
+  .contact-section form textarea:focus {
+    outline: none;
+    border-color: #999;
+  }
+  
+  .contact-section form textarea {
+    height: 150px;
+  }
+  
+  .contact-section form button {
+    display: inline-block;
+    padding: 1rem 1rem;
+    font-size: 15px;
+    background: linear-gradient(to bottom, #007bff, #6f42c1);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 8vw;
+  }
+  
+  .contact-section form button:hover {
+    transform: scale(1.1);
+  }
+  
+ .inp2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: large;
+ }
+
+ #p{
+  margin-top: 2em;
+ }
+
+  #txt{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: large;
+  }
+
+  #inp1{
+    margin-top: 2em;
+  }
+
+  #link{
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #007bff, #6f42c1);    
+    width: 8vw;
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    margin-top: 2em;
+    height: 3vh;
+    transition: all 0.3s ease;
+  }
+
+  #link:hover{
+    transform: scale(1.1);
+  }
+
+  .ml{
+    margin-left: 0.5rem;
+    position: absolute;
+    transition-duration: 300ms;
+  }
+
+  #link:hover .ml {
+    transform:rotate(-90deg);
+  }
+
+  .btdiv{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+ 

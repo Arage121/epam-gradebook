@@ -55,6 +55,7 @@
     margin-bottom: 26em;
     left: 20em;
     background-color: transparent;
+    background: none;
     border: none;
     cursor: pointer;
     outline: none;
@@ -63,6 +64,7 @@
   .close-button:hover{
     background-color: transparent;
     box-shadow: none;
+    background: none;
   }
   
   .close-button #gr {
