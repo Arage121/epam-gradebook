@@ -17,9 +17,9 @@
   
   .popup-content {
     background-color: #f5f5f5;
-    width: 320px;
-    height: 370px;
-    padding: 20px;
+    width: 330px;
+    height: 380px;
+    padding: 25px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position: relative;
@@ -30,7 +30,7 @@
   }
   
   .popup-content h2 {
-    font-size: 26px;
+    font-size: 28px;
     margin-top: 0;
     font-weight: bold;
     text-align: center;
@@ -40,7 +40,7 @@
   
   .popup-content p {
     margin: 9px 0;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     color: #666;
   }
@@ -52,8 +52,8 @@
   
   .close-button {
     position: absolute;
-    margin-bottom: 26em;
-    left: 20em;
+    margin-bottom: 25em;
+    left: 18.7em;
     background-color: transparent;
     background: none;
     border: none;

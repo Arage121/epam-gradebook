@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../styles/main.css';
 import { FcSearch } from 'react-icons/fc';
 import data from '../data/data.json';
+import table from '../extras/table.pdf';
 import Details from './Details';
 import Statistics from './Statistics';
 
@@ -100,7 +101,11 @@ const Main = () => {
 
         <input className="inp" type="text" placeholder="Search here..." onChange={handleSearch} />
         
-        <button id="btn">Download</button>
+        <a id="abtn" rel='noreferrer' href={table} className='flex justify-between items-center w-full text-white '
+             download={true}
+             target='_blank'>
+                Download
+        </a>
       </div>
       <table name='grades'>
         <thead>
@@ -145,5 +150,6 @@ const Main = () => {
     </>
   );
 };
+
 
 export default Main;

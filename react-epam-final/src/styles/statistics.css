@@ -10,7 +10,7 @@
 }
 
 .stats-heading {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -23,7 +23,7 @@
 
 .stats-item-li {
   width: 3vw;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 8px;
 
 }
@@ -32,7 +32,7 @@
   position: absolute;
   margin-left: 16em;
   margin-top: 44px;
-  font-size: 17px;
+  font-size: 18px;
   margin-bottom: 5px;
 }
 
@@ -44,8 +44,8 @@
   cursor: pointer;
   font-size: 16px;
   margin-bottom: 20px;
-  margin-top: 25px;
-  padding: 10px 20px;
+  margin-top: 30px;
+  padding: 11px 20px;
   width: 11vw;
 }
 
@@ -55,11 +55,9 @@
 }
 
 .graph{
-  position: relative;
-  max-width: 40%;
-  max-height: 75%;
-  margin-top: -25em;
-  margin-left: 50em;
+  position: absolute;
+  margin-top: -27em;
+  margin-left: 52em;
 }
 
 .div{

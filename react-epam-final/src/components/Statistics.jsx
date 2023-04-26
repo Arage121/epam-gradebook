@@ -41,9 +41,13 @@ const Statistics = ({ data }) => {
           datasets: [{
             data: Object.values(gradeCount),
             backgroundColor: [
-              '#FF6384',
-              '#36A2EB',
-              '#FFCE56',
+              '#FF292B',
+              '#FF297D',
+              '#FFFF5C',
+              '#EE82EE',
+              '#82FF7D',
+              '#00FFFF',
+              '#FF7800'
               // add more colors as needed
             ]
           }]

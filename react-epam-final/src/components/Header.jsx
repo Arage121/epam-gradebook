@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import '../styles/header.css'
-import img from '../images/res.jpg'
+import img from '../extras/res.jpg'
 import { FaUniversity } from 'react-icons/fa'
 import { FcDepartment } from 'react-icons/fc'
 import { GiNotebook, GiTeacher } from 'react-icons/gi'
